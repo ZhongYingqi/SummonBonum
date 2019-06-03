@@ -11,19 +11,19 @@
     <button id="btnGetProvinces">Get Provinces</button>
     <pre id="preOutput"></pre>
     <script>
-    $(function () {
-        var getProvinces = function () {
-            var url = "https://localhost:44383/api/Provinces/";
-            $.get(url).always(showResponse);
-            return false;
-        };
+        $(function () {
+            var getProvinces = function () {
+                var url = "https://localhost:44383/api/Provinces/";
+                $.get(url).always(showResponse);
+                return false;
+            };
 
-        var showResponse = function (object) {
-            $("#preOutput").text(JSON.stringify(object, null, 4));
-        };
+            var showResponse = function (object) {
+                $("#preOutput").text(JSON.stringify(object, null, 4));
+            };
 
-        $("#btnGetProvinces").click(getProvinces);
-    });
+            $("#btnGetProvinces").click(getProvinces);
+        });
     </script>
 </body>
 </html>
