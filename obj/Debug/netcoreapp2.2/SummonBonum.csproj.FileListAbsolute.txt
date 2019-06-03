@@ -5,7 +5,6 @@ G:\source\repos\SummonBonum\SummonBonum\bin\Debug\netcoreapp2.2\SummonBonum.dll
 G:\source\repos\SummonBonum\SummonBonum\bin\Debug\netcoreapp2.2\SummonBonum.pdb
 G:\source\repos\SummonBonum\SummonBonum\bin\Debug\netcoreapp2.2\SummonBonum.Views.dll
 G:\source\repos\SummonBonum\SummonBonum\bin\Debug\netcoreapp2.2\SummonBonum.Views.pdb
-G:\source\repos\SummonBonum\SummonBonum\obj\Debug\netcoreapp2.2\SummonBonum.csprojAssemblyReference.cache
 G:\source\repos\SummonBonum\SummonBonum\obj\Debug\netcoreapp2.2\SummonBonum.csproj.CoreCompileInputs.cache
 G:\source\repos\SummonBonum\SummonBonum\obj\Debug\netcoreapp2.2\SummonBonum.RazorAssemblyInfo.cache
 G:\source\repos\SummonBonum\SummonBonum\obj\Debug\netcoreapp2.2\SummonBonum.RazorAssemblyInfo.cs

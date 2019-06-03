@@ -16,7 +16,10 @@
                 @Html.DisplayNameFor(model => model.CityName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Province.Name)
+                @Html.DisplayNameFor(model => model.Province)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PictureUrl)
             </th>
             <th></th>
         </tr>
@@ -28,7 +31,10 @@
                 @Html.DisplayFor(modelItem => item.CityName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Province.Name)
+                @Html.DisplayFor(modelItem => item.Province.ProvinceId)
+            </td>
+            <td>
+                <img src=@Html.DisplayFor(modelItem => item.PictureUrl) height="100"/>
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.CityId">Edit</a> |

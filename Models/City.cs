@@ -16,5 +16,7 @@ namespace SummonBonum.Models
         public int ProvinceId { get; set; }
 
         public Province Province { get; set; }
+        [Display(Name = "Picture")]
+        public string PictureUrl { get; set; }
     }
 }

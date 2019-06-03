@@ -56,9 +56,10 @@ namespace SummonBonum.Controllers
         // POST: Cities/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CityId,CityName,ProvinceId")] City city)
+        public async Task<IActionResult> Create([Bind("CityId,CityName,ProvinceId,PictureUrl")] City city)
         {
             if (ModelState.IsValid)
             {
@@ -90,9 +91,10 @@ namespace SummonBonum.Controllers
         // POST: Cities/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CityId,CityName,ProvinceId")] City city)
+        public async Task<IActionResult> Edit(int id, [Bind("CityId,CityName,ProvinceId,PictureUrl")] City city)
         {
             if (id != city.CityId)
             {

@@ -192,6 +192,8 @@ namespace SummonBonum.Data.Migrations
 
                     b.Property<string>("CityName");
 
+                    b.Property<string>("PictureUrl");
+
                     b.Property<int>("ProvinceId");
 
                     b.HasKey("CityId");
@@ -208,6 +210,8 @@ namespace SummonBonum.Data.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Name");
+
+                    b.Property<string>("PictureUrl");
 
                     b.HasKey("ProvinceId");
 

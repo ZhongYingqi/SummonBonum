@@ -11,8 +11,11 @@ namespace SummonBonum.Models
         [Key]
         public int ProvinceId { get; set; }
 
+        [Display(Name = "ProvinceName")]
         public string Name { get; set; }
 
         public List<City> Cities { get; set; }
+        [Display(Name = "Picture")]
+        public string PictureUrl { get; set; }
     }
 }

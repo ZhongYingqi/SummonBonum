@@ -13,7 +13,8 @@ namespace SummonBonum.Data.Migrations
                 {
                     ProvinceId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(nullable: true)
+                    Name = table.Column<string>(nullable: true),
+                    PictureUrl = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -27,7 +28,8 @@ namespace SummonBonum.Data.Migrations
                     CityId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     CityName = table.Column<string>(nullable: true),
-                    ProvinceId = table.Column<int>(nullable: false)
+                    ProvinceId = table.Column<int>(nullable: false),
+                    PictureUrl = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

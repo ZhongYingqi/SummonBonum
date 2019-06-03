@@ -53,9 +53,10 @@ namespace SummonBonum.Controllers
         // POST: Provinces/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProvinceId,Name")] Province province)
+        public async Task<IActionResult> Create([Bind("ProvinceId,Name,PictureUrl")] Province province)
         {
             if (ModelState.IsValid)
             {
@@ -85,9 +86,10 @@ namespace SummonBonum.Controllers
         // POST: Provinces/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProvinceId,Name")] Province province)
+        public async Task<IActionResult> Edit(int id, [Bind("ProvinceId,Name,PictureUrl")] Province province)
         {
             if (id != province.ProvinceId)
             {
