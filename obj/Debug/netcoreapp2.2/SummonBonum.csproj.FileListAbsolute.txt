@@ -39,3 +39,4 @@ G:\source\repos\SummonBonum\SummonBonum\obj\Debug\netcoreapp2.2\Razor\Views\Prov
 G:\source\repos\SummonBonum\SummonBonum\obj\Debug\netcoreapp2.2\Razor\Views\Provinces\Details.g.cshtml.cs
 G:\source\repos\SummonBonum\SummonBonum\obj\Debug\netcoreapp2.2\Razor\Views\Provinces\Edit.g.cshtml.cs
 G:\source\repos\SummonBonum\SummonBonum\obj\Debug\netcoreapp2.2\Razor\Views\Provinces\Index.g.cshtml.cs
+G:\source\repos\SummonBonum\SummonBonum\obj\Debug\netcoreapp2.2\SummonBonum.csprojAssemblyReference.cache
